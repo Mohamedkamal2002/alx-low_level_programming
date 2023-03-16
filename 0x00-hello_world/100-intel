@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=100-main.c ; touch 100-main.s ; gcc -S -march=x86-64 100-main.c 100-main.s
+export CFILE=100-main.c ; touch 100-main.s ; gcc -S -masm=intel 100-main.c 100-main.s
