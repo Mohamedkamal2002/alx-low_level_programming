@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=main.c ; touch main.o ; gcc -c -w  main.c main.o
+export CFILE=1-main.c ; touch 1-main.o ; gcc -c 1-main.c 1-main.o
