@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	char SD_number;
-	char newline;
+	int SD_number;
+	int newline;
 
 	newline = '\n';
 	for (SD_number = '0'; SD_number <= '9'; SD_number++)
