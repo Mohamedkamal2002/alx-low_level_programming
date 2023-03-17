@@ -11,7 +11,7 @@ int main(void)
 	char SD_number;
 	char newline;
 
-	newline = "\n";
+	newline = '\n';
 	for (SD_number = 0; SD_number <= 9; SD_number++)
 		putchar(SD_number);
 	putchar(newline);
