@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - This program prints the alphabet in lower case
+ * main - This program prints the alphabet in lower case without eq char.
  *
  * Description: printing the alphabet using for loop
  * Return: always return 0
