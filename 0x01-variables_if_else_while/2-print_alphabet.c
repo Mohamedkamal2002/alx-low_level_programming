@@ -10,7 +10,8 @@ int main(void)
 {
 	char alphabet;
 
-	for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 		printf("%c", alphabet);
+	printf("\n");
 	return (0);
 }
