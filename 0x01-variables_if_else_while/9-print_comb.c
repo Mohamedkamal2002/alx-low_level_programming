@@ -9,7 +9,6 @@
 int main(void)
 {
 	char SD_number;
-	char newline;
 	char comma;
 	char space;
 
