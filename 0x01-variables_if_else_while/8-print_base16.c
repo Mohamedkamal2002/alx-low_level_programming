@@ -14,7 +14,7 @@ int main(void)
 	newline = '\n';
 	for (hexa_number = '0'; hexa_number <= '9'; hexa_number++)
 		putchar(hexa_number);
-	for(hexa_number = 'a'; hexa_number <= 'f'; hexa_number++)
+	for (hexa_number = 'a'; hexa_number <= 'f'; hexa_number++)
 		putchar(hexa_number);
 	putchar(newline);
 	return (0);
