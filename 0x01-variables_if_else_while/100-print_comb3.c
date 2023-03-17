@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - This program prints the single digit numbers
+ * main - This program prints the combinations of 2 digit number
  *
- * Description: printing the single digit numbers using for loop
+ * Descriptioniofere: 
  * Return: always return 0
  */
 int main(void)
@@ -18,11 +18,10 @@ int main(void)
 	space = ' ';
 	nwline = '\n';
 	for (SD_number = '0'; SD_number <= '9'; SD_number++)
-		for (FD_number = '0'; FD_number <= '9'; FD_number++)
+		for (FD_number = SD_number + 1; FD_number <= '9'; FD_number++)
 		{
-			if (FD_number == SD_number)
-				continue;
-			putchar(SD_number);	
+		
+			putchar(SD_number);
 			putchar(FD_number);
 			if (SD_number != '9')
 			{
