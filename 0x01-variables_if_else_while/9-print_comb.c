@@ -18,8 +18,8 @@ int main(void)
 	for (SD_number = '0'; SD_number <= '8'; SD_number++)
 	{
 		putchar(SD_number);
-		purchar(comma);
-		putchar(space;
+		putchar(comma);
+		putchar(space);
 	}
 	SD_number++;
 	putchar(SD_number);
