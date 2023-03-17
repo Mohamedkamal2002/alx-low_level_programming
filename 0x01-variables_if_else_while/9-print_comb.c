@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char SD_number;
-	char comma;
-	char space;
+	int SD_number;
+	int comma;
+	int space;
 
 	comma = ',';
 	space = ' ';
