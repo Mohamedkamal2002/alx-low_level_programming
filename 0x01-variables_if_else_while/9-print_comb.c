@@ -10,20 +10,22 @@ int main(void)
 {
 	int SD_number;
 	int comma;
-/*	int space;*/
+	int space;
 	int nwline;
 
-	comma = ', ';
-/*	space = ' ';*/
-	newline = '\n';
-	for (SD_number = '0'; SD_number <= '8'; SD_number++)
+	comma = ',';
+	space = ' ';
+	nwline = '\n';
+	for (SD_number = '0'; SD_number <= '9'; SD_number++)
 	{
 		putchar(SD_number);
-		putchar(comma);
-		putchar(space);
+		if (SD != '9')
+		{
+			putchar(comma);
+			putchar(space);
+		}
+
 	}
-	SD_number++;
-	putchar(SD_number);
-	putchar(newline);
+	putchar(nwline);
 	return (0);
 }
