@@ -16,7 +16,7 @@ int main(void)
 	char hexa[16];
 	char newline;
 
-	newline = '\n'
+	newline = '\n';
 	i = 0;
 	hexa = "0123456789abcdef";
 	while (hexa[i] != '\0')
