@@ -3,7 +3,7 @@
 /**
  * main - This program prints the combinations of 2 digit number
  *
- * Descriptioniofere: 
+ * Descriptioniofere:~
  * Return: always return 0
  */
 int main(void)
@@ -20,10 +20,9 @@ int main(void)
 	for (SD_number = '0'; SD_number <= '9'; SD_number++)
 		for (FD_number = SD_number + 1; FD_number <= '9'; FD_number++)
 		{
-		
 			putchar(SD_number);
 			putchar(FD_number);
-			if (SD_number != '9')
+			if (SD_number != '8')
 			{
 				putchar(comma);
 				putchar(space);
