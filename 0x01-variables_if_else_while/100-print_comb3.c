@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int FD_number
+	int FD_number;
 	int SD_number;
 	int comma;
 	int space;
