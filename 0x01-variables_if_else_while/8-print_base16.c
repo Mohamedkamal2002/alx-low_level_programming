@@ -1,25 +1,21 @@
 #include <stdio.h>
 
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-
 /**
- * main - this program prints hexadecimal numbers in lowercase
+ * main - This program prints the hexadecimal numbers
  *
- * Return: alway retrun 0
+ * Description: printing the hexadecimal numbers using for loop
+ * Return: always return 0
  */
 int main(void)
 {
-	char i;
-	char hexa[16] = "0123456789abcdef";;
-	char newline;
+	int hexa_number;
+	int newline;
 
 	newline = '\n';
-	i = 0;
-	while (*(hexa + 1) != '\0')
-		putchar(hexa[i++]);
+	for (hexa_number = '0'; hexa_number <= '9'; hexa_number++)
+		putchar(hexa_number);
+	for(hexa_number = 'a'; hexa_number <= 'f'; hexa_number++)
+		putchar(hexa_number);
 	putchar(newline);
-	retrun 0;
+	return (0);
 }
