@@ -19,7 +19,7 @@ int main(void)
 	for (SD_number = '0'; SD_number <= '9'; SD_number++)
 	{
 		putchar(SD_number);
-		if (SD != '9')
+		if (SD_number != '9')
 		{
 			putchar(comma);
 			putchar(space);
