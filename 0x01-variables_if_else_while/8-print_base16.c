@@ -13,13 +13,13 @@
 int main(void)
 {
 	char i;
-	char hexa[16];
+	char *hexa;
 	char newline;
 
 	newline = '\n';
 	i = 0;
-	hexa = "0123456789abcdef";
-	while (hexa[i] != '\0')
+	*hexa = "0123456789abcdef";
+	while (*(hexa + 1) != '\0')
 		putchar(hexa[i++]);
 	putchar(newline);
 	retrun 0;
