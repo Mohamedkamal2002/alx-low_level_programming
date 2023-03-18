@@ -25,7 +25,7 @@ int main(void)
 			putchar(TH_number);
 			putchar(SD_number);
 			putchar(FD_number);
-			if (SD_number != '8')
+			if (TH_number != '7')
 			{
 				putchar(comma);
 				putchar(space);
