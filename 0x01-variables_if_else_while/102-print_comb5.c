@@ -31,7 +31,8 @@ int main(void)
 					putchar(space);
 					putchar(SD_number);
 					putchar(FD_number);
-					if (TD_number != '8' || FOD_number != '9' || SD_number != '9'  || FD_number != '9')
+					if (TD_number != '8' || FOD_number != '9' || SD_number != '9' || FD_number\
+						       	!= '9')
 					{
 						putchar(comma);
 						putchar(space);
