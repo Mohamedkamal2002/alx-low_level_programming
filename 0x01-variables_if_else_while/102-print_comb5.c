@@ -20,7 +20,7 @@ int main(void)
         space = ' ';
         nwline = '\n';
         for (FOD_number = '0'; FOD_number <= '9' ; FOD_number++)
-            for (TD_number = '0' ; TD_number <= '9' ; TD_number)
+            for (TD_number = '0' ; TD_number <= '9' ; TD_number++)
                 for (SD_number = FOD_number ; SD_number <= '9'; SD_number++)
                         for (FD_number = TD_number+1; FD_number <= '9'; FD_number++)
                         {
