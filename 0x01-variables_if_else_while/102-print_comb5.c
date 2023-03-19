@@ -29,7 +29,7 @@ int main(void)
 					putchar(FOD_number);
 					putchar(TD_number);
 					putchar(space);
-					putchar(SD_number;
+					putchar(SD_number);
 					putchar(FD_number);
 					if (TD_number != '8' && FOD_number != '9')
 					{
