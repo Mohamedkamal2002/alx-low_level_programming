@@ -24,7 +24,7 @@ int main(void)
 			for (SD_number = FOD_number ; SD_number <= '9'; SD_number++)
 				for (FD_number = '0' ; FD_number <= '9'; FD_number++)
 				{
-					if ((SD_number * 10 + FD_number) <= (FOD_number * 10 + TD_number) )
+					if ((SD_number * 10 + FD_number) <= (FOD_number * 10 + TD_number))
 						continue;
 					putchar(FOD_number);
 					putchar(TD_number);
