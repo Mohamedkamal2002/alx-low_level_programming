@@ -9,7 +9,7 @@ void print_alphabet(void); /*prototyping*/
  * Description: calls print_alphabet function.
  * Return: Always  return 0
  */
-int main(viod)
+int main(void)
 {
 	print_alphabet(); /*function call*/
 	return 0;
