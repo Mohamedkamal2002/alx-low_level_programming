@@ -8,10 +8,5 @@
 
 int print_last_digit(int n)
 {
-	int r;
-	int s;
-
-	r = n % 10;
-	s = r + 10 * r ;
-	return (s);
+	return (n % 10);
 }
