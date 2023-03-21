@@ -20,7 +20,7 @@ int main(void)
 	else if (r ==0)
 		_putchar('0');
 	else
-		printf('+');
+		_putchar('+');
 	_putchar(r + '0');
 	_putchar('\n');
 	return (0);
