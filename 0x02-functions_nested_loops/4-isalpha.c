@@ -1,5 +1,5 @@
 /**
- * _islower - check alphabet
+ * _isalpha - check alphabet
  * @c: character passed to be checked
  *
  * Description: This function check if the paramater passed is
