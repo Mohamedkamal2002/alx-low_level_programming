@@ -11,5 +11,6 @@ int main(void)
 	int r;
 
 	r = print_last_digit(98);
+	printf("%d", r);
 	return 0;
 }
