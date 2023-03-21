@@ -19,20 +19,19 @@ int main(void)
 				_putchar(' ');
 				_putchar('1');
 			}
-			case -1:
+		case -1:
 			{
 				_putchar('-');
 				_putchar(',');
 				_putchar(' ');
 				_putchar(r + '0');
 			}
-			case 0:
+		case 0:
 			{
 				_putchar('0');
 				_putchar(',');
 				_putchar(' ');
 				_putchar('0');
-			
 			}
 	}
 	return (0);
