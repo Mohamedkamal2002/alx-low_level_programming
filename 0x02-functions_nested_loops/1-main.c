@@ -1,7 +1,6 @@
-#include<stdio.h>
+#include"main.h"
 /*This program prints alphabets in lowercases.*/
 
-void print_alphabet(void); /*prototyping*/
 
 /**
  * main -  calls print_alphabet function.
