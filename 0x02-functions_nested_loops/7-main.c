@@ -1,4 +1,12 @@
 #include "main.h"
+
+
+int test_last(int i)
+{
+	return (print_last_digit(i));
+}
+
+
 /**
  * main - call the function
  *
@@ -10,7 +18,6 @@ int main(void)
 {
 	int r;
 
-	r = print_last_digit(98);
-	_putchar('0'+ r);
-	return 0;
+	r = test_last(98);
+	return (0);
 }
