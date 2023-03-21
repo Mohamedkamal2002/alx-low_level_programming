@@ -6,7 +6,7 @@
  * Return: return 1 if the @c is letter and 0 otherwise
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 'A' && c <= 'z')
 		return (1);
