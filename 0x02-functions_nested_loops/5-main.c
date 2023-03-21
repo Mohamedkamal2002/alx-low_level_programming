@@ -9,31 +9,10 @@
 int main(void)
 {
 	int r;
+	
 	r = print_sign(98);
-	switch (r)
-	{
-		case 1:
-			{
-				_putchar('+');
-				_putchar(',');
-				_putchar(' ');
-				_putchar('1');
-			}
-		case -1:
-			{
-				_putchar('-');
-				_putchar(',');
-				_putchar(' ');
-				_putchar(r + '0');
-			}
-		case 0:
-			{
-				_putchar('0');
-				_putchar(',');
-				_putchar(' ');
-				_putchar('0');
-			}
-	}
+	r = print_sign(0);
+	r = print_sign(0xff);
+	r = print_sign(-1);
 	return (0);
-
 }
