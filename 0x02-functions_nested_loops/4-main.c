@@ -2,8 +2,10 @@
 
 /**
  * test_isalpha - Test the _isalpha function
- *
  * @n: Number to pass to _isalpha function
+ * 
+ * Description: ~
+ * Return: nothing 
  */
 void test_isalpha(int n)
 {
@@ -17,6 +19,7 @@ void test_isalpha(int n)
 /**
  * main - check the code for Holberton School students.
  *
+ * Description: ~
  * Return: Always 0.
  */
 int main(void)
