@@ -1,8 +1,12 @@
 #include "main.h"
 
 /**
- * print_sign - 
+ * print_sign - check the sign of integer
+ * @n : the number to be checked
  *
+ * Description: print the sign of n and return 1 for positive and negative
+ * zero for zero
+ * Return: 1 for postive and negative , zero for zero value
  */
 int print_sign(int n)
 {
