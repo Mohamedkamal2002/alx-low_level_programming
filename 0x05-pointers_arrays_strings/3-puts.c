@@ -9,6 +9,11 @@
 
 void _puts(char *str)
 {
-	while(*str != '\0')
-		_putchar((*str)++);
+	char temp;
+
+	while (*str != '\0')
+	{
+		temp = *(str)++;
+		_putchar(temp);
+	}
 }
