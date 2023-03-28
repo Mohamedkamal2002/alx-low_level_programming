@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * strlen - count the length of a string
+ * _strlen - count the length of a string
  * @s: is the string
  *
  * Description: count the length of string
@@ -11,8 +11,11 @@ int _strlen(char *s)
 	int length; /*string length*/
 	
 	length = 0;
-	while( *s != '\0')
+	while(*s != '\0')
+	{
 		length++;
+		s++;
+	}
 	return (length);
 
 }
