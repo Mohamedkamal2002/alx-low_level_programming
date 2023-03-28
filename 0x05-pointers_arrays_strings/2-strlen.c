@@ -8,7 +8,8 @@
  */
 int _strlen(char *s)
 {
-	int length; /*string length*/
+	int length;/*string length*/
+
 	length = 0;
 	while (*s != '\0')
 	{
