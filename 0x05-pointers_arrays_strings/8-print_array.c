@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * Print_array - printing string
- * @a: array 
+ * print_array - printing string
+ * @a: array
  * @n: number of elements to be printed from the array.
  *
  * Description: printing elements of an array
@@ -10,13 +11,11 @@
 
 void print_array(int *a, int n)
 {
-	char temp;
 	int i;
 
 	for (i = 0 ; i < n ; i++)
 	{
-		temp = a[i];
-		_putchar(temp);
+		printf("%d", a[i]);
 	}
 	_putchar('\n');
 }
