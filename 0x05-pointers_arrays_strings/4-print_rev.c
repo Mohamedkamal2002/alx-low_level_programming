@@ -18,8 +18,7 @@ void print_rev(char *s)
 		length++;
 		s++;
 	}
-	_putchar(length);
-	for (i = length; i < 0 ; i--)
+	for (i = length; i > 0 ; i--)
 	{
 		s--;
 		temp = *s;
