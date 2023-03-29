@@ -15,7 +15,7 @@ void _puts2(char *str)
 	{
 		temp = *str;
 		str++;
-		if(str != '\0')
+		if(*str != '\0')
 			str++;
 		_putchar(temp);
 	}
