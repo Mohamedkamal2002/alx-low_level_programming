@@ -9,5 +9,6 @@ char *_strdup(char *str)
 	str_cp = malloc(sizeof(str));
 	/*if(str_cp == NULL)
 		return (NULL);*/
+	strcp(str,str_cp);
 	return (str_cp);
 }
