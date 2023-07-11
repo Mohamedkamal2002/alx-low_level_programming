@@ -8,7 +8,7 @@ char *_strdup(char *str)
 		return (NULL);
 	i = 1;
 	while(str[i]!= '\0')
-		i++
+		i++;
 	for (l = 0 ; l <= i ; l++)
 		str_cp[l] = str[l];
 	if(str_cp == NULL)
