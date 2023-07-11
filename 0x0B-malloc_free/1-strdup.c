@@ -13,6 +13,5 @@ char *_strdup(char *str)
 		str_cp[l] = str[l];
 	if(str_cp == NULL)
 		return (NULL);
-	strcpy(str_cp,str);
 	return (str_cp);
 }
