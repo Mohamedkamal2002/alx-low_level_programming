@@ -4,7 +4,7 @@
  * main - this program prints the c file name
  *
  * Description: ~
- * Return : 0 
+ * Return: 0
  */
 
 int main()
