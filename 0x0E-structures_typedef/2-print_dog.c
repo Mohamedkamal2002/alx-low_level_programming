@@ -8,8 +8,7 @@
  * Return:void
  */
 void print_dog(struct dog *d)
-{
-	
+{	
 	if (d->name != NULL)
 		printf("Name: %s", d->name);
 	else
