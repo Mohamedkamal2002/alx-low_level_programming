@@ -2,16 +2,16 @@
 /**
  * sum_them_all - sum all arguments
  * @n: the number of all arguments
- *
+ * @...: the arguments to be sum
  * Description: sum all arguments
  * Return: an integer number that represents the sum 
 */
 
-
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
-	int sum = 0, i;
+	int sum = 0;
+	unsigned int i;
 
 	va_start (args, n);
 	if (n == 0 )
