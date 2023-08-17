@@ -5,7 +5,7 @@
  * @...: the arguments to be sum
  *
  * Description: sum all arguments
- * Return: an integer number that represents the sum 
+ * Return: an integer number that represents the sum
 */
 
 int sum_them_all(const unsigned int n, ...)
